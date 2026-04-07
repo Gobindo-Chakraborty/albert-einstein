@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+  font-family: var(--font-primary);
+}
+
+.icon {
+  fill: none;
+  color: var(--icon-color);
+}
