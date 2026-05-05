@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #23272e;
+  --text-color: #ffffff;
+
+  --text-wip: hsl(225, 25%, 81%);
+  --bg-wip: hsl(233, 20%, 36%);
+  --border-wip: hsla(218, 100%, 18%, 0.274);
+}
+
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+
+  --text-wip: hsl(232, 78%, 21%);
+  --bg-wip: hsl(232, 63%, 37%);
+  --border-wip: hsla(218, 35%, 58%, 0.315);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.text-wip {
+  color: var(--text-wip);
+}
+
+.bg-wip {
+  border-color: var(--bg-wip);
+}
+.border-wip {
+  background-color: var(--border-wip);
+}

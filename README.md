@@ -2,9 +2,6 @@
 
 ![Preview Image](./public/images/einstein-preview.jpg)
 
-## [Live Demo](https://albert-einstein-azure.vercel.app/)
+## [Live Demo](https://albert-einstein.hellogbc.com/)
 
-### For Development
-
-- npm install
-- npm run dev
+NextJS | Tailwind | TypeScript | NextJS-Backend
