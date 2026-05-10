@@ -23,7 +23,9 @@ export default function RootLayout({
       className={`${inter.variable} h-full antialiased`}
       data-theme="dark"
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col font-normal text-primary-text text-base leading-[150%] bg-primary-bg">
+        {children}
+      </body>
     </html>
   );
 }

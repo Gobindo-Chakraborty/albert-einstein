@@ -1,12 +1,20 @@
 @import "tailwindcss";
 
 @theme {
+  /* Colors */
   --color-primary-bg: #000000;
   --color-secondary-bg: #151a22;
 
-  --color-primary-text: #9eb7e9;
+  --color-dark-1: #0e0f11;
+
+  --color-light-1: #233655;
+  --color-light-2: #9eb7e9;
 
   --color-icon: #9eb7e9;
+
+  --color-primary-text: #9eb7e9;
+
+  --color-heading-1: #c8d5ed;
 
   /* WIP : Work In Progress */
   --color-wip-text: hsl(225, 25%, 81%);
@@ -24,7 +32,5 @@
 }
 
 body {
-  background-color: var(--color-primary-bg);
   font-family: var(--font-inter), sans-serif;
-  color: var(--color-primary-text);
 }

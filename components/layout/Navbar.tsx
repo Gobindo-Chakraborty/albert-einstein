@@ -32,6 +32,60 @@ export default function Navbar() {
           className={`bg-icon w-5 h-0.75 rounded ${open ? "-rotate-45 -translate-y-1" : ""} duration-300 transition-transform`}
         ></span>
       </button>
+
+      <div
+        className={`absolute w-screen left-0 text-center ${open ? "top-12.75 opacity-100" : "-top-full opacity-0"} transition-all duration-500 ease-out bg-dark-1 pt-5 pb-8.25 border-b border-b-light-1`}
+      >
+        <ul>
+          <li>
+            <a
+              href="#"
+              className="w-7/12 p-2.5 inline-block relative after:h-px after:w-full after:bg-light-1 after:absolute after:left-0 after:bottom-0 text-sm"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="w-7/12 p-2.5 inline-block relative after:h-px after:w-full after:bg-light-1 after:absolute after:left-0 after:bottom-0 text-sm"
+            >
+              Power of thought
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="w-7/12 p-2.5 inline-block relative after:h-px after:w-full after:bg-light-1 after:absolute after:left-0 after:bottom-0 text-sm"
+            >
+              E=mc2
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="w-7/12 p-2.5 inline-block relative after:h-px after:w-full after:bg-light-1 after:absolute after:left-0 after:bottom-0 text-sm"
+            >
+              Beyond science
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="w-7/12 p-2.5 inline-block relative after:h-px after:w-full after:bg-light-1 after:absolute after:left-0 after:bottom-0 text-sm"
+            >
+              Write to me
+            </a>
+          </li>
+        </ul>
+        <button
+          type="button"
+          aria-label="Go to Explore"
+          className="font-semibold border rounded-full px-4.75 py-0.75 text-heading-1 border-light-2 bg-light-1 mt-8.25"
+        >
+          Explore
+        </button>
+      </div>
     </nav>
   );
 }
